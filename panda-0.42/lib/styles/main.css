@@ -1,2 +1,4 @@
 @layer reset, base, tokens, recipes, utilities;
-@import url("@omnidev/sigil/index.css");
+/* @import url("@omnidev/sigil/index.css"); */
+/* @import url("../../node_modules/@omnidev/sigil/build/sigil.css"); */
+@import url("#omnidev/sigil/index.css");

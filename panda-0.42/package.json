@@ -6,6 +6,10 @@
 		"start": "next start",
 		"prepare": "panda codegen"
 	},
+	"imports": {
+		"#omnidev/sigil": "./node_modules/@omnidev/sigil/build/sigil.js",
+		"#omnidev/sigil/index.css": "./node_modules/@omnidev/sigil/build/sigil.css"
+	},
 	"trustedDependencies": ["@biomejs/biome"],
 	"devDependencies": {
 		"@biomejs/biome": "^1.9.4",
@@ -14,7 +18,7 @@
 	},
 	"dependencies": {
 		"@ark-ui/react": "^4.2.0",
-		"@omnidev/sigil": "^0.11.3",
+		"@omnidev/sigil": "link:/Users/astahmer/dev/open-source/sigil",
 		"@types/node": "^22.8.1",
 		"@types/react": "18.3.12",
 		"@types/react-dom": "^18.3.1",
